@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<style>
+
+	body {
+
+	background-color: lightgrey;	
+	padding: 10px;
+	margin: 10px;
+	border: 2px;
+	border: solid black;
+}
+
+h1 {
+	text-align: left;
+}
+
+textarea {
+	width: 100%;
+}
+
+.footer {
+  //  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    text-align: center;
+}
+
+</style>
+
+
+ </head>
+
+ <body>
+
+ 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+     </button>
+      <a class="navbar-brand" href="hyoshinsite.html">HyoshinPark</a>
+    </div>
+
+	<div class="collapse navbar-collaspse" id="myNavbar">
+	
+    <ul class="nav navbar-nav">
+
+      <li><a href="hyoshinAbout.html">About</a></li>
+      <li><a href="hyoshinAlbum.html">Album</a></li>
+      <li><a href="hyoshinPhotos.html">Photos</a></li>
+      <li><a href="hyoshinComments.html">Comments</a></li>
+    </ul>
+  </div>
+</nav>
+  
+  <div class="container">
+	<h2>COMMENTS</h2>
+
+	<form >
+        <label for="name">Name:</label>
+        <input id="name" type="text"/>
+    
+    <div>
+        <div>
+            <form method="post" action="">
+            <div>
+                <div>
+                  <textarea id="myTextarea" rows="6" cols="auto"  placeholder="Comment here..."></textarea>
+                </div>
+            </div>
+            
+                <button id="submit-button" type="busmit" onclick="myFunction()">Submit</button>
+            
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTextarea").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+			</form>
+        </div>
+    </div>
+</form>
+
+</div>
+
+
+
+<br>
+	<div class="footer">
+<p>Copyright 2018</p>
+</div>
+
+ </body>
+</html>
