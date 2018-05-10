@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<style>
+
+	body {
+
+	background-color: lightgrey;	
+	padding: 10px;
+	border: 2px;
+	border: solid black;
+}
+
+h1 {
+	text-align: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+	//border-collapse: collapse;
+	padding: 15px;
+}
+
+.footer {
+  //  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    text-align: center;
+}
+
+	</style>
+
+ </head>
+ 
+ <body>
+ 
+ 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	<button type="button" class="navbar-toggle collaspsed" data-toggle="collapse" data-target="#navbar-collaspse-2">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+     </button>
+      <a class="navbar-brand" href="hyoshinsite.html">HyoshinPark</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="hyoshinAbout.html">About</a></li>
+      <li><a href="hyoshinAlbum.html">Album</a></li>
+      <li><a href="hyoshinPhotos.html">Photos</a></li>
+      <li><a href="hyoshinComments.html">Comments</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<div class="container">
+<h2>PHOTOS</h2>
+<div class="row">
+
+	<div class="col-md-4">
+		<img src="박효신4.img" style="max-width: 100%; height: auto">
+	</div>
+
+	<div class="col-md-4">
+		<img src="박효신2.img" style="max-width: 80%; height: auto">
+	</div>
+
+	<div class="col-md-4">
+		<img src="박효신3.img" style="max-width: 80%; height: auto">
+	</div>
+
+<br>
+
+
+
+</div>
+</div>
+
+
+
+<br>
+
+<div class="footer">
+<p>Copyright 2018</p>
+</div>
+
+
+ </body>
+</html>
